@@ -1,0 +1,213 @@
+  body{
+    color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #faf3dd;
+}
+h1{
+margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size:5.625em;
+    /*100% = 16px; 1em=16px; in css em means the font size. in html it means font changes to italic*/
+    color: #66BFBF;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /*here rem means 'r' means if we define font size in body also then
+    by mentioning r we are saying ignore font size in body and accept this */
+    color: #66BFBF;
+      font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-align: center;
+
+}
+.des{
+  line-height: 2;
+}
+hr{
+  border: dotted #838383 6px;
+  border-bottom: none;
+  width:4%;
+
+
+
+}
+
+.top-container{
+
+  background-color: #b2ebf2;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom:30px;
+}
+.bottm-container{
+
+  margin-top: 40px;
+
+}
+.bottom-des{
+  line-height: 2;
+}
+.Profile{
+  height: 450px;
+
+}
+
+.profile-img{
+  height:200px;
+}
+.projects{
+  height: 750px;
+  position: relative;
+  top: 20px;
+}
+.highdensity{
+line-height: 2;
+text-align: left;
+position: relative;
+left: 630px;
+top: 40px;
+}
+.speedproject{
+  position: relative;
+  bottom: 230px;
+text-align: left;
+  line-height: 2;
+
+  left: 330px;
+
+}
+.skills{
+
+  height: 570px;
+  margin-top:50px;
+}
+.skills-des{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+  line-height: 2;
+  position: relative;
+  bottom: 50px;
+  left:10px;
+}
+.skills-des2{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  line-height:2;
+  position: relative;
+  bottom: 50px;
+  left:300px;
+
+}
+.Education{
+  height: 350px;
+  margin-top:50px;
+
+}
+.Edu-des{
+  width: 50%;
+  margin:auto;
+  text-align: left;
+  line-height: 2;
+}
+.edu-img{
+  width:30%;
+  border-radius: 50%;
+  float: left; /*opposite of float is clear by using float we get img left and text right
+  but if you declare clear;left for text/para by using clear we get img left and text down to the img
+  avoid using float only use when it is really needed: ;*/
+  margin-right: 15px;
+  height: 180px;
+  position: relative;
+  bottom: 30px;
+}
+
+
+.skills-img{
+  width:20%;
+  float:left;
+border-radius: 50%;
+  position: relative;
+  bottom:30px;
+  left:830px;
+}
+.network-img{
+  width:20%;
+border-radius: 50%;
+position: relative;
+right: 200px;
+bottom:300px;
+
+}
+.highdensity-img{
+  width:20%;
+  border-radius: 50%;
+  height: 250px;
+  margin-top: 40px;
+  position: relative;
+  bottom:280px;
+  right: 220px;
+}
+.speedproject-img{
+  width: 20%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 430px;
+  left:300px;
+
+}
+.linkedin{
+  color:#11999E;
+
+}
+/*<p> <span class="underline">pro</span></p>
+.underline{
+  text-decoration: underline;
+}*/
+.top-cloud{
+  position: absolute;
+  top: 40px;
+  right:300px;
+
+
+}
+.middle-cloud{
+position: absolute;
+left:300px;
+bottom:300px;
+}
+.bottom-cloud{
+  color: #EAF6F6;
+}
+.footer{
+  background-color: #68b0ab;
+  height:150px;
+  margin-top:20px;
+}
+a{
+  position: relative;
+  top:50px;
+  color: #158467;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding: 30px;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  position: relative;
+  top:80px;
+  font-size: 0.75em;
+  color: #EAF6F6;
+
+}
